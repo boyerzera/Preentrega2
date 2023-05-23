@@ -3,9 +3,11 @@
     padding: 0;
 }
 
+b
+
 body {
     font-family:'Roboto Condensed', sans-serif;
-    background-color: whitesmoke;
+    background-color: #401A00;
     
     }
 
@@ -154,9 +156,7 @@ justify-content: center;
 
 
 
-ul {
-    list-style: none;
-}
+
 
 a {
     text-decoration: none;
@@ -282,3 +282,59 @@ justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
 
 }
+
+
+
+/* PAGE MANUAL DE CAFE*/
+
+.contenido-manual {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-manual h2{
+    font-size: 50px;
+    font-weight: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #554235;
+    font-weight: 700;
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contenido-manual p{
+    width: 70%;
+}
+
+.listas-contenido {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+}
+
+.listas-contenido h3{
+font-size: 20px;   
+
+justify-content: center;
+align-items: center;
+color: #401A00;
+font-weight: 700;
+margin-top: 30px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    list-style-type: '☕';
+    
+}
+
+
+    
